@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="PokemonDictionary.csproj" />
+  <Project Path="PokemonDictionary(변수)/PokemonDictionary(변수).csproj" />
+  <Project Path="PokemonDictionary(클래스)/PokemonDictionary(클래스).csproj" />
 </Solution>
