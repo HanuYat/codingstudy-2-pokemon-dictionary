@@ -1,6 +1,6 @@
 ﻿
 // 포켓몬 클래스 생성
-class Pokemon
+partial class Pokemon
 {
     private string _name; // 포켓몬 이름
     private int _attack;  // 포켓몬 공격력
@@ -24,6 +24,7 @@ class Pokemon
         _attack = attack;
         _defence = defence;
         _type = type;
+        _currentHealth = maxHp;
     }
 
     // 포켓몬의 정보 출력 (만약 최대 체력을 음수로 정했을 경우 경고문 출력)

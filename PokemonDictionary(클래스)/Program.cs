@@ -11,3 +11,6 @@ pokemon4.PrintStats();
 pokemon5.PrintStats();
 Console.WriteLine("---------------------");
 Pokemon.TotalCount();
+Console.WriteLine();
+
+Pokemon.Battle(pokemon1, pokemon2);
